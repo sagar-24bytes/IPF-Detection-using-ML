@@ -11,7 +11,7 @@ Idiopathic Pulmonary Fibrosis (IPF) is a chronic lung disease that leads to scar
 - **Lung CT scan images** (DICOM → PNG)
 - **Clinical tabular data** (Age, Sex, Smoking Status, etc.)
 
-We built and evaluated two models:
+I built and evaluated two models:
 -  `EFFICIENTNETB0.ipynb`
 -  `MOBILENET_V3_LARGE.ipynb`
 
@@ -23,7 +23,7 @@ We built and evaluated two models:
 |----------------------------|------------------------------------------------------- |
 | `EFFICIENTNETB0.ipynb`     | Model training using EfficientNetB0                    |
 | `MOBILENET_V3_LARGE.ipynb` | Model training using MobileNetV3-Large                 |
-| `images/`                  | Folder for storing architecture and result visuals     |
+| `images`                   | Folder for storing architecture and result visuals     |
 | `README.md`                | Project documentation                                  |
 | `requirements.txt`         | Python dependencies                                    |
 
@@ -69,7 +69,10 @@ We built and evaluated two models:
 
 ### 📉 FVC Prediction vs Ground Truth
 
+**EfficientNetB0**
 ![FVC Prediction (EfficientNetB0)](images/efficientnet_scatter.png)
+
+**MobileNet V3 Large**
 ![FVC Prediction (MobileNet V3 Large)](images/mobilenet_scatter.png)
 
 ---
@@ -110,8 +113,7 @@ We built and evaluated two models:
   - Run all cells to train/evaluate the models.  
 
 ## 👨‍💻 Author
-**Sagar Chandra**
-**AI/ML Enthusiast**
+**Sagar Chandra** (AI/ML Enthusiast)
 
 - GitHub:  sagar-24bytes
 
